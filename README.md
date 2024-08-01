@@ -1,47 +1,70 @@
-# Svelte + TS + Vite
+Hello from Svelte!👋
+========================
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+The "Hello from Svelte!👋" application is just a starter to show a minimalist Svelte.js app.
 
-## Recommended IDE Setup
+Requirements
+------------
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+* [Node.js][1]
+* [NPM][1], [PNPM][2] or [Yarn][3]
 
-## Need an official Svelte framework?
+Installation
+------------
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+Clone this repository:
 
-## Technical considerations
-
-**Why use this over SvelteKit?**
-
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `allowJs` in the TS template?**
-
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```console
+https://github.com/abdounikarim/poc-svelte-hello
 ```
+
+Go on the project root folder:
+
+```console
+cd poc-svelte-hello/
+```
+
+Install JavaScript dependencies:
+
+```console
+pnpm install
+```
+
+_Or use the equivalent command with npm or yarn_
+
+Usage
+-----
+
+There's no need to configure anything before running the application. There are
+2 different ways of running this application depending on your needs:
+
+**Option 1. Run the application in dev mode**
+
+Run this command:
+
+```bash
+pnpm run dev
+```
+
+Then access the application in your browser at the given URL (<http://localhost:5173> by default).
+
+**Option 2. Run the application in prod mode**
+
+```bash
+pnpm run build
+```
+You now have your fresh JavaScript files for production 🚀.
+You can check everything is OK by opening the `index.html` file and navigate on your application.
+
+Tests
+-----
+
+Execute this command to run tests:
+
+```bash
+pnpm exec playwright test
+```
+
+[1]: https://nodejs.org/en/download/package-manager
+[2]: https://pnpm.io/installation
+[3]: https://yarnpkg.com/getting-started/install
