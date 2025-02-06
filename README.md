@@ -15,13 +15,13 @@ Installation
 Clone this repository:
 
 ```console
-https://github.com/abdounikarim/poc-svelte-hello
+https://github.com/abdounikarim/poc-svelte
 ```
 
 Go on the project root folder:
 
 ```console
-cd poc-svelte-hello/
+cd poc-svelte/
 ```
 
 Install JavaScript dependencies:
