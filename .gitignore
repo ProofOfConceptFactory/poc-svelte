@@ -25,3 +25,6 @@ dist-ssr
 
 # Pnpm
 .pnpm-store/
+
+# mkcert
+ /certs/
