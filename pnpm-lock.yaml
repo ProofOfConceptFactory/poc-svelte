@@ -27,6 +27,9 @@ importers:
       svelte-check:
         specifier: ^3.8.4
         version: 3.8.5(postcss@8.4.40)(svelte@4.2.18)
+      svelte-spa-router:
+        specifier: ^4.0.1
+        version: 4.0.1
       tslib:
         specifier: ^2.6.3
         version: 2.6.3
@@ -963,6 +966,10 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
 
+  regexparam@2.0.2:
+    resolution: {integrity: sha512-A1PeDEYMrkLrfyOwv2jwihXbo9qxdGD3atBYQA9JJgreAx8/7rC6IUkWOw2NQlOxLp2wL0ifQbh1HuidDfYA6w==}
+    engines: {node: '>=8'}
+
   request-progress@3.0.0:
     resolution: {integrity: sha512-MnWzEHHaxHO2iWiQuHrUPBi/1WeBf5PkxQqNyNvLl9VAYSdXkP8tQ3pBSeCPD+yw0v0Aq1zosWLz0BdeXpWwZg==}
 
@@ -1124,6 +1131,9 @@ packages:
         optional: true
       typescript:
         optional: true
+
+  svelte-spa-router@4.0.1:
+    resolution: {integrity: sha512-2JkmUQ2f9jRluijL58LtdQBIpynSbem2eBGp4zXdi7aDY1znbR6yjw0KsonD0aq2QLwf4Yx4tBJQjxIjgjXHKg==}
 
   svelte@4.2.18:
     resolution: {integrity: sha512-d0FdzYIiAePqRJEb90WlJDkjUEx42xhivxN8muUBmfZnP+tzUgz12DJ2hRJi8sIHCME7jeK1PTMgKPSfTd8JrA==}
@@ -2111,6 +2121,8 @@ snapshots:
     dependencies:
       picomatch: 2.3.1
 
+  regexparam@2.0.2: {}
+
   request-progress@3.0.0:
     dependencies:
       throttleit: 1.0.1
@@ -2297,6 +2309,10 @@ snapshots:
     optionalDependencies:
       postcss: 8.4.40
       typescript: 5.5.4
+
+  svelte-spa-router@4.0.1:
+    dependencies:
+      regexparam: 2.0.2
 
   svelte@4.2.18:
     dependencies:

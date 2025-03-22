@@ -1,12 +1,8 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import Router from 'svelte-spa-router';
+  import routes from './router';
 </script>
 
 <main>
-  <h1>Hello from Svelte!👋</h1>
+  <Router {routes} />
 </main>
-
-<style>
-</style>
