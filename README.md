@@ -1,7 +1,7 @@
 Hello from Svelte!👋
 ========================
 
-[![GitHub Pages](https://github.com/abdounikarim/poc-vue/actions/workflows/github-pages.yaml/badge.svg)](https://github.com/abdounikarim/poc-vue/actions/workflows/github-pages.yaml)
+[![GitHub Pages](https://github.com/ProofOfConceptFactory/poc-vue/actions/workflows/github-pages.yaml/badge.svg)](https://github.com/ProofOfConceptFactory/poc-vue/actions/workflows/github-pages.yaml)
 
 The "Hello from Svelte!👋" application is just a starter to show a minimalist Svelte.js app.
 
@@ -17,7 +17,7 @@ Installation
 Clone this repository:
 
 ```console
-https://github.com/abdounikarim/poc-svelte
+https://github.com/ProofOfConceptFactory/poc-svelte
 ```
 
 Go on the project root folder:
