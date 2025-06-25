@@ -26,7 +26,7 @@ importers:
         version: 5.33.14
       svelte-check:
         specifier: ^4.0.0
-        version: 4.2.1(picomatch@4.0.2)(svelte@5.33.14)(typescript@5.8.3)
+        version: 4.2.2(picomatch@4.0.2)(svelte@5.33.14)(typescript@5.8.3)
       svelte-spa-router:
         specifier: ^4.0.1
         version: 4.0.1
@@ -652,6 +652,14 @@ packages:
       picomatch:
         optional: true
 
+  fdir@6.4.6:
+    resolution: {integrity: sha512-hiFoqpyZcfNm1yc4u8oWCf9A2c4D3QjCrks3zmoVKVxpQRzmPNar1hUJcBG2RQHvEVGDN+Jm81ZheVLAQMK6+w==}
+    peerDependencies:
+      picomatch: ^3 || ^4
+    peerDependenciesMeta:
+      picomatch:
+        optional: true
+
   figures@3.2.0:
     resolution: {integrity: sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg==}
     engines: {node: '>=8'}
@@ -893,9 +901,6 @@ packages:
   performance-now@2.1.0:
     resolution: {integrity: sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==}
 
-  picocolors@1.0.1:
-    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
-
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
@@ -1034,8 +1039,8 @@ packages:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
 
-  svelte-check@4.2.1:
-    resolution: {integrity: sha512-e49SU1RStvQhoipkQ/aonDhHnG3qxHSBtNfBRb9pxVXoa+N7qybAo32KgA9wEb2PCYFNaDg7bZCdhLD1vHpdYA==}
+  svelte-check@4.2.2:
+    resolution: {integrity: sha512-1+31EOYZ7NKN0YDMKusav2hhEoA51GD9Ws6o//0SphMT0ve9mBTsTUEX7OmDMadUP3KjNHsSKtJrqdSaD8CrGQ==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -1733,6 +1738,10 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.2
 
+  fdir@6.4.6(picomatch@4.0.2):
+    optionalDependencies:
+      picomatch: 4.0.2
+
   figures@3.2.0:
     dependencies:
       escape-string-regexp: 1.0.5
@@ -1951,8 +1960,6 @@ snapshots:
 
   performance-now@2.1.0: {}
 
-  picocolors@1.0.1: {}
-
   picocolors@1.1.1: {}
 
   picomatch@4.0.2: {}
@@ -2117,12 +2124,12 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  svelte-check@4.2.1(picomatch@4.0.2)(svelte@5.33.14)(typescript@5.8.3):
+  svelte-check@4.2.2(picomatch@4.0.2)(svelte@5.33.14)(typescript@5.8.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.3
-      fdir: 6.4.5(picomatch@4.0.2)
-      picocolors: 1.0.1
+      fdir: 6.4.6(picomatch@4.0.2)
+      picocolors: 1.1.1
       sade: 1.8.1
       svelte: 5.33.14
       typescript: 5.8.3
