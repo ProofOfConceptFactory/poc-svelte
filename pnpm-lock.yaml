@@ -14,13 +14,13 @@ importers:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.0
-        version: 5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.29))
+        version: 5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.33))
       '@tsconfig/svelte':
         specifier: ^5.0.4
         version: 5.0.4
       '@types/node':
         specifier: ^22.0.2
-        version: 22.15.29
+        version: 22.15.33
       svelte:
         specifier: ^5.33.14
         version: 5.33.14
@@ -38,7 +38,7 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.3.5
-        version: 6.3.5(@types/node@22.15.29)
+        version: 6.3.5(@types/node@22.15.33)
 
 packages:
 
@@ -347,8 +347,8 @@ packages:
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
 
-  '@types/node@22.15.29':
-    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
+  '@types/node@22.15.33':
+    resolution: {integrity: sha512-wzoocdnnpSxZ+6CjW4ADCK1jVmd1S/J3ArNWfn8FDDQtRm8dkDg7TA+mvek2wNrfCgwuZxqEOiB9B1XCJ6+dbw==}
 
   '@types/sinonjs__fake-timers@8.1.1':
     resolution: {integrity: sha512-0kSuKjAS0TrGLJ0M/+8MaFkGsQhZpB6pxOmvS3K8FYI72K//YmdfoW9X2qPsAKh1mkwxGD5zib9s1FIFed6E8g==}
@@ -1376,25 +1376,25 @@ snapshots:
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.29)))(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.29))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.33)))(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.33))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.29))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.33))
       debug: 4.4.1
       svelte: 5.33.14
-      vite: 6.3.5(@types/node@22.15.29)
+      vite: 6.3.5(@types/node@22.15.33)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.29))':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.33))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.29)))(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.29))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.33)))(svelte@5.33.14)(vite@6.3.5(@types/node@22.15.33))
       debug: 4.4.1
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
       svelte: 5.33.14
-      vite: 6.3.5(@types/node@22.15.29)
-      vitefu: 1.0.6(vite@6.3.5(@types/node@22.15.29))
+      vite: 6.3.5(@types/node@22.15.33)
+      vitefu: 1.0.6(vite@6.3.5(@types/node@22.15.33))
     transitivePeerDependencies:
       - supports-color
 
@@ -1402,7 +1402,7 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
-  '@types/node@22.15.29':
+  '@types/node@22.15.33':
     dependencies:
       undici-types: 6.21.0
 
@@ -1412,7 +1412,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.15.29
+      '@types/node': 22.15.33
     optional: true
 
   acorn@8.14.1: {}
@@ -2199,7 +2199,7 @@ snapshots:
       core-util-is: 1.0.2
       extsprintf: 1.3.0
 
-  vite@6.3.5(@types/node@22.15.29):
+  vite@6.3.5(@types/node@22.15.33):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.5(picomatch@4.0.2)
@@ -2208,12 +2208,12 @@ snapshots:
       rollup: 4.41.1
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 22.15.29
+      '@types/node': 22.15.33
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@6.3.5(@types/node@22.15.29)):
+  vitefu@1.0.6(vite@6.3.5(@types/node@22.15.33)):
     optionalDependencies:
-      vite: 6.3.5(@types/node@22.15.29)
+      vite: 6.3.5(@types/node@22.15.33)
 
   which@2.0.2:
     dependencies:
