@@ -21,6 +21,6 @@
     "vite": "^7.0.0"
   },
   "dependencies": {
-    "cypress": "^14.0.2"
+    "cypress": "^15.0.0"
   }
 }
