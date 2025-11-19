@@ -1,6 +1,9 @@
 Hello from Svelte!👋
 ========================
 
+> [!WARNING]
+> This repository is no longer maintained. You can check the [poc-sveltekit][0] repository as an alternative.
+
 [![GitHub Pages](https://github.com/ProofOfConceptFactory/poc-vue/actions/workflows/github-pages.yaml/badge.svg)](https://github.com/ProofOfConceptFactory/poc-vue/actions/workflows/github-pages.yaml)
 
 The "Hello from Svelte!👋" application is just a starter to show a minimalist Svelte.js app.
@@ -92,6 +95,7 @@ This application is deployed on [GitHub Pages][4].
 Everything is configured and managed automatically by [GitHub Actions][5].
 You can check the workflow file at [.github/workflows/github-pages.yaml][6].
 
+[0]: https://github.com/ProofOfConceptFactory/poc-sveltekit
 [1]: https://www.docker.com/products/docker-desktop/
 [2]: https://github.com/FiloSottile/mkcert
 [3]: https://localhost:8000/dist/index.html
